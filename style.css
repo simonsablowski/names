@@ -1,0 +1,98 @@
+* {
+	color: #000;
+	font: 12pt arial;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+}
+
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	margin: 0 0 54px;
+}
+
+a {
+	color: #393;
+	outline-style: none;
+	text-decoration: none;
+}
+
+#header {
+	background-color: #eee;
+	padding: 15px;
+}
+
+#title, #title a {
+	font-size: 20pt;
+	line-height: 1;
+}
+
+#document {
+	padding: 15px;
+}
+
+#examples {
+	padding: 15px 0;
+	width: 590px;
+}
+
+#examples ol {
+	padding: 15px 30px;
+}
+
+#options {
+	background-color: #ddd;
+	padding: 15px;
+	width: 590px;
+}
+
+#options p {
+	padding: 5px 0;
+}
+
+#options input {
+	background-color: #eee;
+	border: 1px solid #999;
+}
+
+#options input#pattern {
+	background-color: #fff;
+	font-size: 15pt;
+	margin: 0;
+	padding: 5px;
+	width: 500px;
+}
+
+#options input#submit {
+	padding: 5px 15px;
+}
+
+#results {
+	margin: 15px 0 0;
+}
+
+#results ul {
+	float: left;
+	padding: 15px 30px;
+	width: 100px;
+}
+
+#footer {
+	background-color: #eee;
+	bottom: 0;
+	height: 54px;
+	position: absolute;
+	width: 100%;
+}
+
+#copyright {
+	padding: 15px;
+}
+
+.clear {
+	clear: both;
+}
